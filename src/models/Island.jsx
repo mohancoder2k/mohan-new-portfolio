@@ -127,6 +127,11 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     canvas.addEventListener('pointerdown', handlePointerDown)
     canvas.addEventListener('pointerup', handlePointerUp)
     canvas.addEventListener('pointermove', handlePointerMove)
+
+    canvas.addEventListener('touchstart', handlePointerDown)
+    canvas.addEventListener('touchmove', handlePointerMove)
+    canvas.addEventListener('touchend', handlePointerUp)
+
     document.addEventListener('keydown', handleKeyDown)
     document.addEventListener('keyup', handleKeyUp)
 
@@ -134,6 +139,11 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
       canvas.removeEventListener('pointerdown', handlePointerDown)
       canvas.removeEventListener('pointerup', handlePointerUp)
       canvas.removeEventListener('pointermove', handlePointerMove)
+
+      canvas.removeEventListener('touchstart', handlePointerDown)
+      canvas.removeEventListener('touchmove', handlePointerMove)
+      canvas.removeEventListener('touchend', handlePointerUp)
+
       document.removeEventListener('keydown', handleKeyDown)
       document.removeEventListener('keyup', handleKeyUp)
     }
