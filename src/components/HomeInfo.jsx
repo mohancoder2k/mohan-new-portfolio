@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { arrow, github, linkedin } from '../assets/icons'
+import { arrow } from '../assets/icons'
+import { socialLinks } from '../constants'
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
@@ -22,26 +23,22 @@ const renderContent = {
         experiences.
       </h2>
       <section className="flex gap-4 items-center justify-center mt-4">
-        <Link
-          to="https://github.com/erickgcia"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="button"
-          className="flex items-center justify-center gap-1 text-black font-semibold text-base border-2 rounded-lg p-1 bg-white cursor-pointer shadow-lg"
-        >
-          <img className="w-[1.4rem]" src={github} alt="Logo de github" />
-          Github
-        </Link>
-        <Link
-          to="https://github.com/erickgcia"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="button"
-          className="flex items-center justify-center gap-1 text-black font-semibold text-base border-2 rounded-lg p-1 bg-white cursor-pointer shadow-lg"
-        >
-          <img className="w-[1.4rem]" src={linkedin} alt="Logo de linkedin" />
-          Linkedin
-        </Link>
+        {socialLinks.map((link) => (
+          <Link
+            to={link.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="button"
+            className="flex items-center justify-center gap-1 text-black font-semibold text-base border-2 rounded-lg p-1 bg-white cursor-pointer shadow-lg hover:bg-slate-100 transition-all"
+          >
+            <img
+              className="w-[1.4rem]"
+              src={link.iconUrl}
+              alt={`Logo of ${link.name}`}
+            />
+            {link.name}
+          </Link>
+        ))}
       </section>
     </section>
   ),

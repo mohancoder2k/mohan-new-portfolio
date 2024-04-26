@@ -7,7 +7,11 @@ const CTA = () => {
         Have a project in mind? <br className="sm:block hidden" /> Let's get
         started!
       </p>
-      <Link to="/contact" className="btn" role="button">
+      <Link
+        to="/contact"
+        className="btn sm:text-base sm:min-w-32"
+        role="button"
+      >
         Contact
       </Link>
     </section>
