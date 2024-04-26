@@ -56,6 +56,7 @@ const Contact = () => {
         <h1 className="head-text">Get in touch</h1>
 
         <form
+          ref={formRef}
           className="w-full flex flex-col gap-7 mt-14"
           onSubmit={handleSubmit}
         >
