@@ -17,7 +17,7 @@ const renderContent = {
       <h1>
         Hi, I'm <span className="text-2xl font-semibold">Erick García</span>
       </h1>
-      <h2>
+      <h2 className="text-lg">
         A frontend developer passionate about building impactful web
         experiences.
       </h2>
@@ -27,15 +27,20 @@ const renderContent = {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="button"
-          className="border-2 rounded-lg p-1 bg-white text-center cursor-pointer shadow-lg"
+          className="flex items-center justify-center gap-1 text-black font-semibold text-base border-2 rounded-lg p-1 bg-white cursor-pointer shadow-lg"
         >
-          <img className="w-8" src={github} alt="Logo de github" />
+          <img className="w-[1.4rem]" src={github} alt="Logo de github" />
+          Github
         </Link>
         <Link
+          to="https://github.com/erickgcia"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="button"
-          className="border-2 rounded-lg p-1 bg-white text-center cursor-pointer shadow-lg"
+          className="flex items-center justify-center gap-1 text-black font-semibold text-base border-2 rounded-lg p-1 bg-white cursor-pointer shadow-lg"
         >
-          <img className="w-8" src={linkedin} alt="Logo de linkedin" />
+          <img className="w-[1.4rem]" src={linkedin} alt="Logo de linkedin" />
+          Linkedin
         </Link>
       </section>
     </section>
