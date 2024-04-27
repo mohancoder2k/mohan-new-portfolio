@@ -1,6 +1,6 @@
-# 3D Portfolio Website
+<h1 style="text-align: center; font-weight: 700; font-size: 3rem;">3D Portfolio Website</h1>
 
-<div style="position: relative; border: 1px solid #fff; border-radius: 10px;">
+<div style="display: flex; gap: 1rem; align-items: center; justify-content: center;">
   <img
     src="https://github.com/erickgcia/portfolio/raw/main/src/assets/images/read-me-desktop.png"
     alt="Portfolio mockup of the desktop version"
@@ -9,7 +9,7 @@
   <img
     src="https://github.com/erickgcia/portfolio/raw/main/src/assets/images/read-me-phone.png"
     alt="Portfolio mockup of the phone version"
-    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 20%; height: 20%;">
+    style="width: 20%; height: 20%;">
 </div>
 
 
