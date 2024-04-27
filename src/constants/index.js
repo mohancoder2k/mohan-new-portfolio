@@ -128,10 +128,10 @@ export const experiences = [
     iconBg: '#ffe59c',
     date: '2023 - 2024',
     points: [
-      'Collaborated closely with teh client to understand their unique needs and translate them into functional and visually appealing website designs.',
+      'Understand the client needs and translate them into functional and visually components for the website.',
       'Managed the entire web development process, from initial concept to final delivery, ensuring high-quality that met the client specifications.',
       'Continuously researched and implemented clean coding practices in the website development',
-      'Constantly communicated project updates, gather feedback, and ensure alignment with project goals and timelines',
+      'Communicate project updates, gather feedback, and ensure alignment with project goals and timelines',
     ],
   },
 ]

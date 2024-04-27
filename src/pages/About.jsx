@@ -9,14 +9,14 @@ import CTA from '../components/CTA'
 const About = () => {
   return (
     <article className="max-container">
-      <h1 className="head-text">
-        Hello, I'm{' '}
-        <span className="blue-gradient_text font-semibold drop-shadow">
-          Erick García
-        </span>
-      </h1>
-      <section className="mt-5 flex flex-col gap-3 text-slate-500 text-balance">
-        <p>
+      <section className="flex flex-col gap-4">
+        <h1 className="head-text">
+          Hello, I'm{' '}
+          <span className="blue-gradient_text font-semibold drop-shadow">
+            Erick García
+          </span>
+        </h1>
+        <p className="text-slate-500 text-balance">
           +1 year of experience as a frontend developer. I enjoy having the
           capacity to create captivating and interactive web experiences. Feels
           great diving into projects that push my limits and give me the chance
@@ -24,7 +24,7 @@ const About = () => {
         </p>
       </section>
       <article className="py-10 flex flex-col">
-        <h3 className="subhead-text">My Skills</h3>
+        <h3 className="subhead-text">Tech stack</h3>
         <section className="mt-16 flex flex-wrap gap-12">
           {skills &&
             skills.map((skill) => (

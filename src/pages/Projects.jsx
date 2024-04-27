@@ -6,20 +6,14 @@ import CTA from '../components/CTA'
 const Projects = () => {
   return (
     <article className="max-container">
-      <h1 className="head-text">
-        My{' '}
-        <span className="blue-gradient_text font-semibold drop-shadow">
-          Projects
-        </span>
-      </h1>
-      <section className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-          voluptate nisi repellat. Fugiat veniam ipsam quae labore dolorum
-          architecto consequuntur, Fugiat veniam ipsam quae labore dolorum
-          architecto consequuntur.
-        </p>
-      </section>
+      <div className="flex flex-col gap-4">
+        <h1 className="head-text">
+          My{' '}
+          <span className="blue-gradient_text font-semibold drop-shadow">
+            Projects
+          </span>
+        </h1>
+      </div>
       <section className="flex flex-wrap gap-16 py-20 border-b-4 border-b-slate-200">
         {projects.map((project) => (
           <div key={project.name} className="lg:w-[400px] w-full">
