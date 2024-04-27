@@ -9,7 +9,7 @@
   <img
     src="https://github.com/erickgcia/portfolio/raw/main/src/assets/images/read-me-phone.png"
     alt="Portfolio mockup of the phone version"
-    style="position: absolute; bottom: 0; left: 20px; width: 50%; height: 50%;">
+    style="position: absolute; bottom: 0px; left: 20px; width: 25%; height: 25%;">
 </div>
 
 
