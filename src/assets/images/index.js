@@ -1,15 +1,8 @@
-import hero from './hero.jpg'
 import meta from './meta.png'
 import shopify from './shopify.png'
 import starbucks from './starbucks.png'
 import tesla from './tesla.png'
-import logo from './logo.svg'
+import readmeDesktop from './read-me-desktop.png'
+import readmePhone from './read-me-phone.png'
 
-export {
-    hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
-}
+export { meta, shopify, starbucks, tesla, readmeDesktop, readmePhone }
