@@ -25,6 +25,7 @@ const renderContent = {
       <section className="flex gap-4 items-center justify-center mt-4">
         {socialLinks.map((link) => (
           <Link
+            key={link.name}
             to={link.link}
             target="_blank"
             rel="noopener noreferrer"

@@ -15,11 +15,12 @@ const About = () => {
           Erick García
         </span>
       </h1>
-      <section className="mt-5 flex flex-col gap-3 text-slate-500">
+      <section className="mt-5 flex flex-col gap-3 text-slate-500 text-balance">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-          voluptate nisi repellat. Fugiat veniam ipsam quae labore dolorum
-          architecto consequuntur?
+          +1 year of experience as a frontend developer. I enjoy having the
+          capacity to create captivating and interactive web experiences. Feels
+          great diving into projects that push my limits and give me the chance
+          to discover new technologies. Always thriving to become better.
         </p>
       </section>
       <article className="py-10 flex flex-col">
@@ -45,20 +46,13 @@ const About = () => {
       </article>
       <article className="py-16 border-b-4 border-b-slate-200">
         <h3 className="subhead-text">Work Experience</h3>
-        <section className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis
-            voluptate nisi repellat. Fugiat veniam ipsam quae labore dolorum
-            architecto consequuntur?
-          </p>
-        </section>
         <section className="mt-12 flex">
           <VerticalTimeline>
             {experiences &&
               experiences.map((experience) => (
                 <VerticalTimelineElement
                   key={`experience-key-${experience.company_name}`}
-                  date={experience.date}
+                  date={<span className="px-2">{experience.date}</span>}
                   icon={
                     <div className="flex justify-center items-center w-full h-full">
                       <img

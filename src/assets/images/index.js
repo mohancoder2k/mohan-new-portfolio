@@ -1,7 +1,7 @@
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import circleBlue from './circleBlue.svg'
+import circleRed from './circleRed.svg'
+import circleYellow from './circleYellow.svg'
+import circleGreen from './circleGreen.svg'
 import readmeMockup from './readme-mockup.png'
 
-export { meta, shopify, starbucks, tesla, readmeMockup }
+export { circleBlue, circleRed, circleYellow, circleGreen, readmeMockup }
