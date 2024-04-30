@@ -19,7 +19,7 @@ const About = () => {
           <p className="text-slate-500 text-balance">
             I'm Erick! I've a degree in International Business and after years
             in the field I transitioned into the world of Programming. Ever
-            since, I enjoy crafting web experiences for the users.
+            since, I enjoy creating web experiences for the users.
           </p>
         </div>
       </section>
