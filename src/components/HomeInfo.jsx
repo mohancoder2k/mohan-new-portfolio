@@ -15,10 +15,12 @@ const InfoBox = ({ text, link, btnText }) => (
 const renderContent = {
   1: (
     <article className="flex flex-col gap-8 items-center">
-      <section className="sm: text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 ">
+      <section className="text-lg md:text-2xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 ">
         <h1>
           Hello World! I'm{' '}
-          <span className="text-2xl font-semibold">Erick García</span>
+          <span className="text-lg md:text-2xl font-semibold">
+            Erick García
+          </span>
         </h1>
         <h2 className="text-lg">
           +1 year of experience as a Frontend Developer based in Monterrey,
@@ -50,7 +52,7 @@ const renderContent = {
           src={swipearrow}
           alt="swipe left icon"
         />
-        <span className="text-2xl text-black font-semibold">
+        <span className="text-lg md:text-2xl text-center text-black font-semibold">
           Drag/swipe to explore
         </span>
         <img className="mt-4" src={swipearrow} alt="swipe right icon" />
