@@ -14,7 +14,7 @@ const Projects = () => {
           </span>
         </h1>
       </div>
-      <section className="flex flex-wrap gap-16 py-20 border-b-4 border-b-slate-200">
+      <section className="flex justify-center flex-wrap gap-16 py-20 border-b-4 border-b-slate-200">
         {projects.map((project) => (
           <div key={project.name} className="lg:w-[400px] w-full">
             <div className="block-container w-12 h-12">

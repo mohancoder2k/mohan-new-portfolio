@@ -19,6 +19,7 @@ import threads from './threads.svg'
 import arrow from './arrow.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import swipearrow from './swipearrow.svg'
 
 export {
   css,
@@ -42,4 +43,5 @@ export {
   arrow,
   soundon,
   soundoff,
+  swipearrow,
 }

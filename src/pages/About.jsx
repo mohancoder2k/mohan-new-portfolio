@@ -11,24 +11,27 @@ const About = () => {
     <article className="max-container">
       <section className="flex flex-col gap-4">
         <h1 className="head-text">
-          Hello, I'm{' '}
           <span className="blue-gradient_text font-semibold drop-shadow">
-            Erick García
+            About me
           </span>
         </h1>
-        <p className="text-slate-500 text-balance">
-          +1 year of experience as a frontend developer. I enjoy having the
-          capacity to create captivating and interactive web experiences. Feels
-          great diving into projects that push my limits and give me the chance
-          to discover new technologies. Always thriving to become better.
-        </p>
+        <div className="[&>p]:mb-4">
+          <p className="text-slate-500 text-balance">
+            I'm Erick! I've a degree in International Business and after years
+            in the field I transitioned into the world of Programming. Ever
+            since, I enjoy crafting web experiences for the users.
+          </p>
+        </div>
       </section>
       <article className="py-10 flex flex-col">
-        <h3 className="subhead-text">Tech stack</h3>
-        <section className="mt-16 flex flex-wrap gap-12">
+        <h3 className="subhead-text">Skills</h3>
+        <section className="mt-16 flex justify-center flex-wrap gap-12">
           {skills &&
             skills.map((skill) => (
-              <div key={skill.id} className="block-container w-20 h-20">
+              <div
+                key={skill.id}
+                className="block-container w-16 md:w-20 aspect-square"
+              >
                 <div className="btn-back rounded-xl" />
                 <div
                   role="button"
@@ -45,7 +48,7 @@ const About = () => {
         </section>
       </article>
       <article className="py-16 border-b-4 border-b-slate-200">
-        <h3 className="subhead-text">Work Experience</h3>
+        <h3 className="subhead-text">Tech Experience</h3>
         <section className="mt-12 flex">
           <VerticalTimeline>
             {experiences &&

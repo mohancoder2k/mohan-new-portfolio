@@ -97,36 +97,11 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'HR Associate',
-    company_name: 'Metalsa',
-    icon: circleBlue,
-    iconBg: '#accbe1',
-    date: '2018 - 2019',
-    points: [
-      'Facilitated the execution of exclusive company events, ensuring they ran smoothly and left a lasting impact on attendees.',
-      "Managed event registration through the company's database, updating sign-up processes and ensuring accurate record-keeping.",
-      'Participated in various dynamic tasks, including providing support to senior personnel within the facility, building connections, and contributing to the flow of operations.',
-    ],
-  },
-  {
-    title: 'Junior Buyer',
-    company_name: 'Ragasa',
-    icon: circleGreen,
-    iconBg: '#b7e4c7',
-    date: '2021 - 2022',
-    points: [
-      'First and main contact between the purchasing department and logistics providers, seeking potential companies to do business with.',
-      'Follow-ups and negotiation processes with the suppliers to establish attractive deals for the company.',
-      'Development of high-value purchase orders, submitting them to the Oracle company database.',
-      'Keeping track of and updating spreadsheets of supplier information based on the negotiation status.',
-    ],
-  },
-  {
     title: 'Web Developer',
     company_name: 'Freelance',
-    icon: circleYellow,
-    iconBg: '#ffe59c',
-    date: '2023 - 2024',
+    icon: circleBlue,
+    iconBg: '#accbe1',
+    date: '2023 - Current',
     points: [
       'Understand the client needs and translate them into functional and visually components for the website.',
       'Managed the entire web development process, from initial concept to final delivery, ensuring high-quality that met the client specifications.',
