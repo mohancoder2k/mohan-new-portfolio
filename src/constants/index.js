@@ -3,6 +3,7 @@ import {
   circleRed,
   circleYellow,
   circleGreen,
+  appleAppMockup,
 } from '../assets/images'
 
 import {
@@ -126,53 +127,32 @@ export const socialLinks = [
 ]
 
 export const projects = [
-  // TODO: Cambiar titulo, descripcion y url al repositorio de github del proyecto
   {
-    iconUrl: pricewise,
-    theme: 'btn-back-red',
-    name: 'Project Demo 1',
+    thumbnail: appleAppMockup,
+    name: 'iPhone 15 Pro webpage',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
+      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
+    link: 'https://github.com/erickgcia/apple-app',
   },
   {
-    iconUrl: threads,
-    theme: 'btn-back-green',
-    name: 'Project Demo 2',
+    thumbnail: appleAppMockup,
+    name: 'iPhone 15 Pro webpage',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
+      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
+    link: 'https://github.com/erickgcia/apple-app',
   },
   {
-    iconUrl: car,
-    theme: 'btn-back-blue',
-    name: 'Project Demo 3',
+    thumbnail: appleAppMockup,
+    name: 'iPhone 15 Pro webpage',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
+      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
+    link: 'https://github.com/erickgcia/apple-app',
   },
   {
-    iconUrl: snapgram,
-    theme: 'btn-back-pink',
-    name: 'Project Demo 4',
+    thumbnail: appleAppMockup,
+    name: 'iPhone 15 Pro webpage',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
-  },
-  {
-    iconUrl: estate,
-    theme: 'btn-back-black',
-    name: 'Project Demo 5',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
-  },
-  {
-    iconUrl: summiz,
-    theme: 'btn-back-yellow',
-    name: 'Project Demo 6',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/erickgcia',
+      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
+    link: 'https://github.com/erickgcia/apple-app',
   },
 ]

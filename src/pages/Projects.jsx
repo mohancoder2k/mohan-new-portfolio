@@ -14,34 +14,27 @@ const Projects = () => {
           </span>
         </h1>
       </div>
-      <section className="flex justify-center flex-wrap gap-16 py-20 border-b-4 border-b-slate-200">
+      <article className="flex justify-center flex-wrap gap-16 py-20 border-b-4 border-b-slate-200">
         {projects.map((project) => (
-          <div key={project.name} className="lg:w-[400px] w-full">
-            <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
-              <div
-                role="button"
-                className="btn-front rounded-xl flex justify-center items-center"
-              >
-                <img
-                  src={project.iconUrl}
-                  alt="Project icon"
-                  className="w-1/2 h-1/2 object-contain"
-                />
-              </div>
-            </div>
-
-            <section className="mt-5 flex flex-col">
+          <section key={project.name} className="lg:w-[400px] w-full">
+            <Link to={project.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={project.thumbnail}
+                alt="Apple App Website Mockup"
+                className="block w-full mb-4 rounded-lg shadow-md shadow-black/10 transition-all duration-300 hover:scale-[0.97]"
+              />
+            </Link>
+            <div className="flex flex-col">
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>
               <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="flex items-center gap-2 mt-5 font-poppins">
+              <div className="flex items-center gap-2 pt-5 font-poppins">
                 <Link
                   to={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
+                  className="font-semibold text-blue-600 transition-all duration-150 hover:text-blue-700"
                 >
                   Preview
                 </Link>
@@ -51,10 +44,10 @@ const Projects = () => {
                   className="w-4 h-4 object-contain"
                 />
               </div>
-            </section>
-          </div>
+            </div>
+          </section>
         ))}
-      </section>
+      </article>
       <CTA />
     </article>
   )
