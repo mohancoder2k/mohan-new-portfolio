@@ -21,7 +21,7 @@ const Projects = () => {
               <img
                 src={project.thumbnail}
                 alt="Apple App Website Mockup"
-                className="block w-full mb-4 rounded-lg shadow-md shadow-black/10 transition-all duration-300 hover:scale-[0.97]"
+                className="block w-full mb-4 rounded-lg shadow-md shadow-black/10 transition-all duration-300 hover:scale-[0.99]"
               />
             </Link>
             <div className="flex flex-col">
