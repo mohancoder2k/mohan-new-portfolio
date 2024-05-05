@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v1
@@ -43,6 +45,8 @@ jobs:
         with:
           name: production-files
           path: ./dist
+        env:
+          NODE_VERSION: 20 # Especificar la versión de Node.js
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
