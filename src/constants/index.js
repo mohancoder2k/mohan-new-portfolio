@@ -132,27 +132,27 @@ export const projects = [
     name: 'iPhone 15 Pro webpage',
     description:
       'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://github.com/erickgcia/apple-app',
+    link: 'https://erickgcia.github.io/apple-app/',
   },
   {
     thumbnail: appleAppMockup,
     name: 'iPhone 15 Pro webpage',
     description:
       'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://github.com/erickgcia/apple-app',
+    link: 'https://erickgcia.github.io/apple-app/',
   },
   {
     thumbnail: appleAppMockup,
     name: 'iPhone 15 Pro webpage',
     description:
       'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://github.com/erickgcia/apple-app',
+    link: 'https://erickgcia.github.io/apple-app/',
   },
   {
     thumbnail: appleAppMockup,
     name: 'iPhone 15 Pro webpage',
     description:
       'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://github.com/erickgcia/apple-app',
+    link: 'https://erickgcia.github.io/apple-app/',
   },
 ]
