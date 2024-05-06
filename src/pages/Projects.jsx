@@ -20,7 +20,7 @@ const Projects = () => {
             <Link to={project.link} target="_blank" rel="noopener noreferrer">
               <img
                 src={project.thumbnail}
-                alt="Apple App Website Mockup"
+                alt={`${project.name} mockup`}
                 className="block w-full mb-4 rounded-lg shadow-md shadow-black/10 transition-all duration-300 hover:scale-[0.99]"
               />
             </Link>
