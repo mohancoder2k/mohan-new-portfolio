@@ -1,10 +1,4 @@
-import {
-  circleBlue,
-  circleRed,
-  circleYellow,
-  circleGreen,
-  appleAppMockup,
-} from '../assets/images'
+import { circleBlue, appleAppMockup, artMockup } from '../assets/images'
 
 import {
   car,
@@ -135,11 +129,11 @@ export const projects = [
     link: 'https://erickgcia.github.io/apple-app/',
   },
   {
-    thumbnail: appleAppMockup,
-    name: 'iPhone 15 Pro webpage',
+    thumbnail: artMockup,
+    name: 'Personal Art Gallery Website',
     description:
-      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://erickgcia.github.io/apple-app/',
+      'Personal client contemporary art gallery website to display his art. Created without any frameworks using pure HTML, CSS and JS.',
+    link: 'https://mariogildardo.com.mx/',
   },
   {
     thumbnail: appleAppMockup,
