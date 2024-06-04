@@ -1,4 +1,9 @@
-import { circleBlue, appleAppMockup, artMockup } from '../assets/images'
+import {
+  circleBlue,
+  appleAppMockup,
+  artMockup,
+  translateMockup,
+} from '../assets/images'
 
 import {
   car,
@@ -122,7 +127,7 @@ export const socialLinks = [
 export const projects = [
   {
     thumbnail: appleAppMockup,
-    name: 'iPhone 15 Pro webpage',
+    name: 'iPhone 15 Pro Webpage',
     description:
       'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
     link: 'https://erickgcia.github.io/apple-app/',
@@ -135,17 +140,10 @@ export const projects = [
     link: 'https://mariogildardo.com.mx/',
   },
   {
-    thumbnail: appleAppMockup,
-    name: 'iPhone 15 Pro webpage',
+    thumbnail: translateMockup,
+    name: 'EasyTranslate Translator',
     description:
-      'iPhone 15 Pro clon webpage with additional 3D models for a better UX/UI. Created with React, Tailwind CSS and Three JS.',
-    link: 'https://erickgcia.github.io/apple-app/',
-  },
-  {
-    thumbnail: artMockup,
-    name: 'Personal Art Gallery Website',
-    description:
-      'Personal client contemporary art gallery website to display his art. Created without any frameworks using pure HTML, CSS and JS.',
-    link: 'https://mariogildardo.com.mx/',
+      'Minimalistic translator, intutive and easy created with Typescript, React, CSS vanilla and Open AI API.',
+    link: 'https://github.com/erickgcia/translate-app',
   },
 ]

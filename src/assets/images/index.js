@@ -5,6 +5,7 @@ import circleGreen from './circleGreen.svg'
 import readmeMockup from './readme-mockup.png'
 import appleAppMockup from './apple-app-mockup.webp'
 import artMockup from './art-mockup.webp'
+import translateMockup from './translate-app-mockup.webp'
 
 export {
   circleBlue,
@@ -14,4 +15,5 @@ export {
   readmeMockup,
   appleAppMockup,
   artMockup,
+  translateMockup,
 }
