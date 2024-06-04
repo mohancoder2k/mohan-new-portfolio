@@ -143,7 +143,7 @@ export const projects = [
     thumbnail: translateMockup,
     name: 'EasyTranslate Translator',
     description:
-      'Minimalistic translator, intutive and easy created with Typescript, React, Redux, CSS vanilla and Open AI API.',
+      'Intuitive translator webapp created with Typescript, React, Redux, CSS vanilla and Open AI API. Tested with Vitest.',
     link: 'https://github.com/erickgcia/translate-app',
   },
 ]
