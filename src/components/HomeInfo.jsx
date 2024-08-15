@@ -19,12 +19,11 @@ const renderContent = {
         <h1>
           Hello World! I'm{' '}
           <span className="text-lg md:text-2xl font-semibold">
-            Erick García
+            Mohan Sarady
           </span>
         </h1>
         <h2 className="text-lg">
-          +1 year of experience as a Frontend Developer based in Monterrey,
-          México.
+        Aspiring Software Engineer in the Full Stack domain, currently pursuing a B.Tech in Computer Science and Engineering from Pondicherry.
         </h2>
         <section className="flex gap-4 items-center justify-center mt-4">
           {socialLinks.map((link) => (

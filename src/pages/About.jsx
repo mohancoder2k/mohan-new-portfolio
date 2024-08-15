@@ -16,12 +16,37 @@ const About = () => {
           </span>
         </h1>
         <div className="[&>p]:mb-4">
-          <p className="text-slate-500 text-balance">
-            I'm Erick! I've a degree in International Business and after years
-            in the field I transitioned into the world of Programming. Ever
-            since, I enjoy creating web experiences for the users.
-          </p>
-        </div>
+  <p className="text-slate-500 text-balance">
+    <strong>Highly motivated Full Stack Software Engineer</strong> with a strong portfolio of personal projects, demonstrating expertise in:
+  </p>
+  <p className="text-slate-500 text-balance">
+    <strong>Server-Side Development:</strong>
+  </p>
+  <ul className="list-disc list-inside ml-4 text-slate-500">
+    <li>Proficient in Core Java with an in-depth understanding of OOP concepts.</li>
+    <li>Experienced in server-side development using Spring, Spring Boot, Node.js, and Flask.</li>
+    <li>Skilled in:
+      <ul className="list-disc list-inside ml-4">
+        <li>Server-side logic implementation</li>
+        <li>Database integration and management</li>
+        <li>API endpoints creation</li>
+        <li>RESTful web service integration with the client side</li>
+        <li>Dependency injection</li>
+        <li>Request & response handling</li>
+        <li>Routing and error handling</li>
+        <li>API testing using Postman</li>
+      </ul>
+    </li>
+  </ul>
+  <p className="text-slate-500 text-balance">
+    <strong>User Interface Side Development:</strong>
+  </p>
+  <ul className="list-disc list-inside ml-4 text-slate-500">
+    <li>Proficient in React.js for building responsive web applications.</li>
+    <li>Experienced in React Native for mobile app development.</li>
+  </ul>
+</div>
+
       </section>
       <article className="py-10 flex flex-col">
         <h3 className="subhead-text">Skills</h3>

@@ -2,13 +2,19 @@ import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <header className="header">
-      <NavLink
-        to="/"
-        className="w-10 h-10 rounded-lg bg-white flex items-center justify-center font-bold shadow-md"
-      >
-        <p className="blue-gradient_text">EG</p>
-      </NavLink>
+    <header className="header" style={{justifyContent:'space-between'}}>
+   <NavLink
+  to="/"
+   className="w-40 h-10 rounded-lg bg-white flex items-center justify-center font-bold shadow-md"
+>
+  <p
+    className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-teal-400 text-sm md:text-base lg:text-lg"
+  >
+    Mohan Sarady 
+  </p>
+</NavLink>
+
+
       <nav className="flex text-lg gap-7 font-semibold">
         <NavLink
           to="/about"

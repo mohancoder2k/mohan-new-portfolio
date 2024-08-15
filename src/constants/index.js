@@ -97,16 +97,16 @@ export const skills = [
 
 export const experiences = [
   {
-    title: 'Web Developer',
-    company_name: 'Freelance',
+    title: 'B.Tech Student - CSE ',
+    company_name: 'Sri Manakula Vinayagar Engineering College',
     icon: circleBlue,
     iconBg: '#accbe1',
     date: '2023 - Current',
     points: [
-      'Understand the client needs and translate them into functional and visually components for the website.',
-      'Managed the entire web development process, from initial concept to final delivery, ensuring high-quality that met the client specifications.',
-      'Continuously researched and implemented clean coding practices in the website development',
-      'Communicate project updates, gather feedback, and ensure alignment with project goals and timelines',
+      'Focusing on technical skills that the industry expects from a BTech CSE student, and maintaining a decent CGPA in BTech academics.',
+      'Managed the entire web development process, from initial concept to final delivery, ensuring high-quality that met the industry recruiters expectation.',
+      'Continuously researched and implemented clean coding practices in the website development.',
+      'Continously involved in engaging of New Skills and Latest Tools in all Domains of IT in my Bachelors acquiring more Knowledge about Computer Fundamentals.',
     ],
   },
 ]
@@ -115,12 +115,12 @@ export const socialLinks = [
   {
     name: 'Github',
     iconUrl: github,
-    link: 'https://github.com/erickgcia',
+    link: 'https://github.com/mohancoder2k',
   },
   {
     name: 'Linkedin',
     iconUrl: linkedin,
-    link: 'https://www.linkedin.com/in/erickgcia/',
+    link: 'https://www.linkedin.com/in/mohan-sarady-164321251/',
   },
 ]
 
